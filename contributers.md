@@ -1,4 +1,4 @@
-| Name| Github-ID  | College name |  
+| Name| Github-ID | College name |
 
 |:-------------|:------------|:----------------|
 | Pradip Maity | @codeboy-pro | Haldia Institute Of Technology |
@@ -11,8 +11,7 @@
 
 |Vishva Modh|ViMo018|IIIT Allahabad|
 
+|Himanshu| Himanshu-1903 | IIIT Allahabad |
+
 <!-- ADD ABOVE THIS-->
 <!--example |Korvac | Betty |Reyansh College| IIT2024067|>
-
-
-
