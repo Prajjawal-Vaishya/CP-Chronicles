@@ -21,6 +21,10 @@
 | Saurav Gitte           | SauravGitte             | IIIT Allahabad                                                   |
 | Avaneesh Verma         | avaneeshk2307-wq        | IIIT Allahabad                                                   |
 | Aditya Shirsatrao      | adityashirsatrao007     | N. K. Orchid College Of Engineering & Technology, Solapur        |
+| Sourish Awasthi        | LooninS                 | IIIT Allahabad                                                   |
+| Ishan Tripathi         | ishantripathi64         | IIIT Allahabad                                                   |
+| Lavay Garg             | lavaygarg               | IIIT Allahabad                                                   |
+| Kushagra Sahu          | KushagraSahu-01         | IIIT Allahabad                                                   |
 | Sourish Awasthi         | LooninS                | IIIT Allahabad                  |
 | Ishan Tripathi          | ishantripathi64        | IIIT Allahabad                  |
 | Lavay Garg              | lavaygarg              | IIIT Allahabad                  |
