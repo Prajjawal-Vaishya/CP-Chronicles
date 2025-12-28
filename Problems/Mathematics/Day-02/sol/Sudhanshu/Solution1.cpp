@@ -8,26 +8,24 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t;
+    ll t;
     cin >> t;
     while (t--)
     {
-        int n;
+        ll n;
         cin >> n;
-        vector<int> v(n);
+        vector<ll> v(n);
 
-        for (int i = 0; i < n; i++)
+        for (ll i = 0; i < n; i++)
             cin >> v[i];
 
         sort(v.begin(), v.end());
 
-        int low = v[0];
-        int high = v[n - 1];
+        ll low = v[0];
+        ll high = v[n - 1];
 
-        int adjust = (low == high) ? 2 : 1;
-
-        int cLow = 0;
-        int cHigh = 0;
+        ll cLow = 0;
+        ll cHigh = 0;
 
         for (auto i : v)
         {
@@ -44,7 +42,7 @@ int main()
             cHigh++;
         }
 
-        cout << cHigh * cLow * 2 / adjust << endl;
+        cout << ((low == high) ? (cLow * (cLow - 1)) : (cLow * cHigh * 2)) << endl;
     }
 
     return 0;
@@ -62,4 +60,6 @@ APPROACH:
 
 TC: O(nlog n)
 SC: O(n)
+
+https://codeforces.com/contest/1771/submission/355619015
 */
