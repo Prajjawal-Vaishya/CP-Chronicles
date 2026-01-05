@@ -6,10 +6,17 @@ TC- o(n log n)
 SC - o(n)
 
 Approach:
-Convert large numbers into smaller ranks so they are easy to work with.
-Treat each element as the middle of a triplet.
-Count bigger elements on the left and smaller elements on the right.
-Multiply these counts and sum for all positions to get the answer.
+Take each element as one by one and treat that element as middle element,count number of elements greater than that element on left side of that element and count
+number of elements smaller than that element on right side of that element. 
+
+Use a Fenwick Tree (Binary Indexed Tree) to efficiently count elements in ranges, Since array values can be as large as 10^9, first compress the values to ranks 1..n
+
+Do the left to right pass in Fenwick tree to count number of elements greater than current element on left side.
+
+Reset Fenwick tree and do right to left pass to count number of elements smaller than current element on right side.
+
+Finally, for each element multiply the two counts and sum them up to get the final answer.
+
 */
 
 #include <bits/stdc++.h>
